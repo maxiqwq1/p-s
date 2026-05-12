@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://revision-sistematica-api.onrender.com/api'
 const PER_PAGE = 25
 
 function tagTipo(tipo) {

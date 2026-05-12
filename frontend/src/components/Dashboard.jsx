@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://revision-sistematica-api.onrender.com/api'
 
 export default function Dashboard() {
   const [stats, setStats] = useState(null)
