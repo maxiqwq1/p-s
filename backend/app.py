@@ -4,7 +4,7 @@ from routes.articulos import articulos_bp
 from routes.stats import stats_bp
 
 app = Flask(__name__)
-CORS(app, origins=["https://maxiqwq1.github.io", "http://localhost:5173"])
+CORS(app)
 
 app.register_blueprint(articulos_bp, url_prefix="/api")
 app.register_blueprint(stats_bp, url_prefix="/api")
